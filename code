@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner in = new Scanner (System.in);
+    int y;
+    System.out.println("This program prints out a name, press 1 to continue? ");
+    y = in.nextInt();
+    String f;
+    String s;
+    String t;
+    String h;
+    String r;
+    String b;
+    String e;
+    String l;
+    String a;
+    f = "b";
+    s = "e";
+    t = "l";
+    h = "l";
+    r = "a";
+    b = ("\n * \n * \n **** \n *  * \n *  * \n **** \n  ");
+    e = ("\n  \n  \n **** \n *   \n * ** \n **** \n  ");
+    l = ("\n * \n * \n * \n * \n * \n * \n  ");
+    a= ("\n  \n  \n **** \n *  * \n *  ** \n ***** \n  ");
+    System.out.println(b+e+l+l+a);
+    }
+  }
